@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Time</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+</head>
+<body>
+    <main class="container">
+        <h2>Latest Time</h2>
+        <hr>
+        <input type="text" id="timeInput" placeholder="Enter time in HH:MM format">
+        <button onclick="evaluateTime()">Evaluate</button>
+        <button class="secondary" onclick="clearAll()">Clear</button>
+        <p id="error" style="color: red;"></p>
+        <p id="result"></p>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
